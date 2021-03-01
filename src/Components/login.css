@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --lg-btn-bg: linear-gradient(
+        to left,
+        rgba(116, 235, 213, 0.6),
+        rgba(159, 172, 230, 0)
+    );
+}
+.container {
+    background-color: var(--lg-btn-bg);
+}
